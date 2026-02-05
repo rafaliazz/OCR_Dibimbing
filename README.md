@@ -25,4 +25,7 @@ The only bottleneck in terms of time when running the application is when runnin
 For improvements, we can automatically detect the relevant parts of the receipt (where it contains all price info) and ignore/blur all other parts of the image. For this we can use a simple object detector.
 
 ### Web application
-Web application runs smoothly with no problems however further logic needs to be figured out in the case of edge cases (e.g. when there are more users than items, when the receipt shows data for other currencies other than the USD). We can add simple validation checks to prevent adding more users than items and also implement more currencies and use the OCR/LLM pipeline to detect the currency as well + incorporate that to our web application.  
+Web application runs smoothly with no problems however further logic needs to be figured out in the case of edge cases (e.g. when there are more users than items, when the receipt shows data for other currencies other than the USD). We can add simple validation checks to prevent adding more users than items and also implement more currencies and use the OCR/LLM pipeline to detect the currency as well + incorporate that to our web application.
+
+## Demo vid
+https://drive.google.com/file/d/1l1TeZQ9ruXNPg67rw1m8lE1fppXklTt-/view?usp=sharing
