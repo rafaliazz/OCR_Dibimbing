@@ -1,0 +1,5 @@
+setup.py
+src/ocr_dibimbing.egg-info/PKG-INFO
+src/ocr_dibimbing.egg-info/SOURCES.txt
+src/ocr_dibimbing.egg-info/dependency_links.txt
+src/ocr_dibimbing.egg-info/top_level.txt
